@@ -20,5 +20,6 @@ With Nix: `nix build github:AriSweedler/ari-zshlib`, then source `result/lib/log
 | `lib/investigation_folder.zsh` | a timestamped scratch folder per run |
 | `lib/strip_ansi.zsh`, `lib/log_rotate.zsh` | strip escape codes; rotate a log file |
 | `lib/log.bash`, `lib/arg.bash` | the bash pair: logging and argument parsing |
+| `lib/tmux-pane.sh` | POSIX sh helpers for acting on a tmux pane safely |
 
 This repo is a mirror. The files are written in [Ari's dotfiles](https://github.com/AriSweedler/dotfiles) and exported here.
