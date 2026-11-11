@@ -19,6 +19,7 @@ With Nix: `nix build github:AriSweedler/ari-zshlib`, then source `result/lib/log
 | `lib/run_with_timeout.zsh` | run a command with a deadline |
 | `lib/investigation_folder.zsh` | a timestamped scratch folder per run |
 | `lib/strip_ansi.zsh`, `lib/log_rotate.zsh` | strip escape codes; rotate a log file |
+| `lib/fzf_group.zsh`, `lib/fzf_groups.zsh` | fzf pickers: the options every one-group picker shares; one screen of exclusive option groups |
 | `lib/log.bash`, `lib/arg.bash` | the bash pair: logging and argument parsing |
 | `lib/tmux-pane.sh` | POSIX sh helpers for acting on a tmux pane safely |
 
